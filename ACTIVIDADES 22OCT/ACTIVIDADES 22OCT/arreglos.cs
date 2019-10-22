@@ -22,10 +22,10 @@ namespace ACTIVIDADES_22OCT
         {
             Console.WriteLine("los números del 100 al 1");
             int[] arreglo = new int[1];
-            for (int i = 0; 0 < 100; i--)
-
-                Console.WriteLine(i + 1);
-
+            for (int i = 100; i > 0; i--)
+            {
+                Console.WriteLine(i);
+            }
         }
     }
 }
